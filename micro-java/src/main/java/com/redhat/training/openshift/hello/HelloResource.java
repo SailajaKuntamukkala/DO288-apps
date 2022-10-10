@@ -28,7 +28,7 @@ public class HelloResource {
       	if (!message.isPresent()) {
       	  response = "Hello world from host " + hostname + "\n";
       	} else {
-      	  response = "Hello world from host [" + hostname + "].\n";
+      	  response = "Hello world from this host [" + hostname + "].\n";
       	  response += "Message received = " + message.get() + "\n";
         }
         return response;
